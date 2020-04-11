@@ -44,7 +44,6 @@
   }
 
   function updateCardChosen(inCard) {
-    console.dir(inCard);
     dispatch('updateCard', inCard);
     closeSelectionModal();
   }
